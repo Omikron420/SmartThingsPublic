@@ -66,6 +66,7 @@ metadata {
 
 		// Sengled
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, 0702, 0B05", outClusters: "0019", manufacturer: "sengled", model: "E14-U43", deviceJoinName: "Sengled Light" //Sengled E14-U43
+        fingerprint profileId: "C05E", deviceId: "F98E", manufacturer: "CREE", model: "Connected A-19 60W Equivalent", deviceJoinName: "BATHROOM"
 	}
 
 	// simulator metadata
