@@ -14,7 +14,7 @@
  *
  */
 metadata {
-	definition (name: "Aeon Motor Controller", namespace: "CEILING FAN", author: "OMIKRON420", runLocally: true, executeCommandsLocally: true) {
+	definition (name: "Aeon Motor Controller", namespace: "CEILING FAN", author: "OMIKRON420", runLocally: true, executeCommandsLocally: false) {
 		capability "Refresh"
 		capability "Actuator"
         capability "doorControl"
