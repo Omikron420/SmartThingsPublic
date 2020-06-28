@@ -12,7 +12,7 @@
  *
  */
 metadata {
-	definition (name: "Aeon Illuminator Module", namespace: "KITCHEN", author: "OMIKRON420", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: true) {
+	definition (name: "Aeon Illuminator Module", namespace: "KITCHEN", author: "OMIKRON420", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
 		capability "Energy Meter"
 		capability "Switch Level"
 		capability "Actuator"
@@ -23,7 +23,7 @@ metadata {
 
 		command "reset"
 
-		fingerprint deviceId: "0x1104", inClusters: "0x26,0x32,0x27,0x2C,0x2B,0x70,0x85,0x72,0x86", outClusters: "0x82", deviceJoinName: "Aeon Dimmer Switch"
+		fingerprint deviceId: "0x1104", inClusters: "0x26,0x27,0x2C,0x2B,0x70,0x85,0x72,0x86", outClusters: "0x82", deviceJoinName: "Aeon Dimmer Switch"
         fingerprint mfr: "0086", prod: "0003", model: "001B", deviceJoinName: "KITCHEN"
 	}
 
